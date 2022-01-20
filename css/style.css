@@ -1,0 +1,123 @@
+html, body{
+    margin:0px;
+    padding: 0;
+}
+
+/******     CLASSES     ******/
+
+.navbar{
+    background-color: rgb(180, 224, 224) !important;
+    border-bottom: solid;
+    border-color: rgb(20, 20, 126);
+}
+
+.titre-h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #6d4c46;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.titre-h2{
+    font-size: 60px;
+    font-weight: bold;
+    color: cadetblue;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.titre-h3{
+    font-size: 50px;
+    font-weight: bold;
+    color: darksalmon;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.titre-h4{
+    font-size: 40px;
+    font-weight: bold;
+    color: #E95420;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+.titre-h5{
+    font-size: 20px;
+    color: rgb(63, 33, 9);
+    font-weight: bold;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.categories-figure{
+    padding:10px;
+    transition: 0.2s;
+}
+
+.categories-figure:hover{
+    cursor: pointer;
+    box-shadow: 2px 4px 4px 2px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    transform:scale(1.15);
+}
+
+.card-title{
+    color: #E95420;
+}
+
+/******     ID     ******/
+
+#bloc-1{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#bloc-1-section{
+    background-image: url("../img/camion.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+}
+
+#article-bloc1{
+    width: 600px;
+    margin-left: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#bloc-2{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#bloc-4{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+/*
+#article-bloc2{
+    width: 800px;
+    margin-left: 10%;
+    padding-top: 100px;
+}
+*/
+
+#icon-carre, #icon-pay, #icon-plane{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    padding:10px;
+}
+
+#bloc-5{
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+}
+
